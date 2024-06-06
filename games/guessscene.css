@@ -1,0 +1,123 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fff no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #555;
+    margin-left: 2%;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    padding: 0.5rem 2.2rem;
+    margin: 0 0.5rem;
+    
+}
+
+nav a:hover {
+    background-color: #ddd;
+    border-radius: 4px;
+}
+
+.container {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin-top: 270px;  
+    margin-bottom: 50px; 
+}
+
+h2 {
+    font-size: 2em;
+    color: #3c3c3c;
+}
+
+p {
+    font-size: 1.2em;
+    color: #3c3c3c;
+}
+#characterImage{
+    border-radius: 8px;
+    width: 100%;
+}
+input {
+    width: 80%;
+    padding: 10px;
+    font-size: 16px;
+    margin: 10px 0;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+
+footer {
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+footer a {
+    color: #bddb38;
+    text-decoration: none; /* Remove underline */
+    transition: color 0.3s ease; /* Smooth transition */
+}
+
+footer a:hover {
+    color: #fff; /* White text color on hover */
+}
+footer p {color: #fff;}
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #5C9210;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #4CAF50;
+}
